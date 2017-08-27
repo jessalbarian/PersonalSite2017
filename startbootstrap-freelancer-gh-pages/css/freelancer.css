@@ -29,7 +29,7 @@ h5,
 h6 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: capitalize; }
 
 hr.star-light,
 hr.star-primary {
@@ -77,6 +77,9 @@ section {
     font-size: 3em;
     margin: 0; }
 
+section, #contact {
+  padding: 100px 0 0 0; }
+
 section.success {
   color: white;
   background: #3BA8AD; }
@@ -103,6 +106,9 @@ section.success {
     border-radius: 100%; }
     .scroll-top .btn:focus {
       outline: none; }
+
+.footer-below {
+  color: lightgray; }
 
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -353,7 +359,22 @@ footer {
     background-color: #414042; }
 
 #contact h2 {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  text-transform: capitalize; }
+
+#contact .contact-block {
+  background-color: #35A8AD;
+  position: relative; }
+
+#contact .contact-block-content {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+#contact .contact-form-content {
+  padding: 2em; }
 
 #about h2 {
   margin-bottom: 1em; }
