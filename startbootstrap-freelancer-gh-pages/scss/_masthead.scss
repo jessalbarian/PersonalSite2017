@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
-
+  height: 100vh;
   text-align: center;
 
   color: white;
@@ -10,7 +10,7 @@ header.masthead {
   img {
     display: block;
 
-    margin: 0 auto 20px;
+    margin: 4em auto 20px;
   }
   .intro-text {
     .name {

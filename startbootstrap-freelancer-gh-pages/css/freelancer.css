@@ -190,12 +190,13 @@ button {
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
+  height: 100vh;
   text-align: center;
   color: white;
   background: #3BA8AD; }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: 4em auto 20px; }
   header.masthead .intro-text .name {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
@@ -398,6 +399,39 @@ footer {
 
 #about h2 {
   margin-bottom: 1em; }
+
+#about p {
+  font-weight: 300; }
+
+#about img {
+  display: block;
+  margin: 0 auto 2em auto; }
+
+#about .pitchBtn {
+  margin-bottom: 5em; }
+
+#about .hover-container:hover .image {
+  opacity: 0.3; }
+
+#about .hover-container:hover .middle {
+  opacity: 1; }
+
+#about .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden; }
+
+#about .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
 
 .btn-outline {
   font-size: 20px;

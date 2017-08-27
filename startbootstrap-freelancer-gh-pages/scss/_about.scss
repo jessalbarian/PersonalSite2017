@@ -2,4 +2,44 @@
   h2 {
     margin-bottom: 1em;
   }
+
+  p {
+    font-weight: 300;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 2em auto;
+  }
+
+  .pitchBtn {
+    margin-bottom: 5em;
+  }
+
+  .hover-container:hover .image {
+    opacity: 0.3;
+  }
+
+  .hover-container:hover .middle {
+    opacity: 1;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
 }
