@@ -114,10 +114,17 @@ button {
 
 #pitch-deck iframe {
   width: 50vw;
-  height: -webkit-calc(100vh - 50px);
-  height: -moz-calc(100vh - 50px);
-  height: calc(100vh - 50px);
-  margin-top: 3em; }
+  height: -webkit-calc(100vh - 108px);
+  height: -moz-calc(100vh - 108px);
+  height: calc(100vh - 108px);
+  margin-top: 4em; }
+
+#resume iframe {
+  width: 50vw;
+  height: -webkit-calc(100vh - 108px);
+  height: -moz-calc(100vh - 108px);
+  height: calc(100vh - 108px);
+  margin-top: 4em; }
 
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
