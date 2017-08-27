@@ -78,8 +78,8 @@
       <div class="container">
         <!--<img class="img-fluid img-circle" src="img/me.jpg" alt="">-->
         <div class="intro-text">
-          <span class="name">Jessie Albarian</span>
-          <span class="skills">Software Developer - Graphic Artist - User Experience Designer</span>
+          <span class="name sr-icons">Jessie Albarian</span>
+          <span class="skills sr-icons">Software Developer - Graphic Artist - User Experience Designer</span>
         </div>
       </div>
     </header>
@@ -257,22 +257,32 @@
               <img class="img-fluid" src="img/portfolio/cuapp_project.png" alt="CU Boulder iOS app">
             </a>
           </div>
+          <div class="col-sm-4 portfolio-item">
+            <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/animalshelter_project.png" alt="Patches iOS app">
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container">
-        <h2 class="text-center">Let's Get in Touch</h2>
-        <!--<hr class="star-primary">-->
-        <p class="text-center">Whether you want to start your next project with me or just want say hi, I'd love to hear from you!</p>
-        <p></p>
+      <!--<div class="container">-->
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate>
+          <div class="col-lg-6 col-md-6 col-sm-12 contact-block">
+            <div class="contact-block-content">
+              <h2 class="text-center sr-contact">Let's Get in Touch</h2>
+              <p class="text-center sr-contact">Whether you want to start your next project with me or just want say hi, I'd love to hear from you!</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mx-auto">
+            <form name="sentMessage" id="contactForm" novalidate class="contact-form-content">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                   <label>Name</label>
@@ -284,13 +294,6 @@
                 <div class="form-group floating-label-form-group controls">
                   <label>Email Address</label>
                   <input class="form-control" id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -308,7 +311,7 @@
               </div>
             </form>
           </div>
-        </div>
+        <!--</div>-->
       </div>
     </section>
 
@@ -317,8 +320,7 @@
       <div class="footer-above">
         <div class="container">
           <div class="row">
-            <div class="footer-col col-md-12">
-              <!--<h3>Around the Web</h3>-->
+            <div class="footer-col col-md-12 sr-icons">
               <ul class="list-inline">
                 <li class="list-inline-item">
                   <a class="btn-social btn-outline" href="#">
@@ -378,25 +380,17 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <h2>HackCU 2016 Website Project</h2>
-                  <!--<hr class="star-primary">-->
-                  <img class="img-fluid img-centered" src="img/portfolio/hackcu2016_project.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                    <img class="img-fluid img-centered" src="img/portfolio/hackcu2016_project.png" alt="HackCU 2016 website project">
+                    <p>I was the lead website developer and designer on the HackCU team for their 2016 event. I created custom mountain graphics for the site, worked with JavaScript to manipulate the stars animation in the background, and designed the overall theme and layout of the site.</p>
+                    <strong>
+                        <a href="https://2016.hackcu.org/" target="_blank">2016.HackCU.org</a>
+                    </strong>
                   <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
+                      <li><b>Client:</b> HackCU
                     </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
+                      <li><b>Date:</b> Jan 2016
                     </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
+                      <li><b>Skills used:</b> JavaScript, HTML, CSS, graphic design, Illustrator
                     </li>
                   </ul>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
@@ -424,26 +418,19 @@
                 <div class="modal-body">
                   <h2>Project Title</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
+                  <img class="img-fluid img-centered" src="img/portfolio/hackcu2018_project.png" alt="HackCU 2018 website project">
+                    <p>I designed the overall theme and layout of the HackCU IV landing page and helped with HTML, CSS, and the gradient. Note: this page may not be live, as it is just a landing page.</p>
+                    <strong>
+                        <a href="https://hackcu.org/" target="_blank">HackCU.org</a>
+                    </strong>
+                    <ul class="list-inline item-details">
+                        <li><b>Client:</b> HackCU
+                        </li>
+                        <li><b>Date:</b> Aug 2017
+                        </li>
+                        <li><b>Skills used:</b> HTML, CSS, graphic design, Illustrator
+                        </li>
+                    </ul>
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
@@ -455,48 +442,42 @@
       </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <h2>Project Title</h2>
-                  <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/circus.png" alt="">
-                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-success" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i>
-                    Close</button>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"></div>
+                    </div>
                 </div>
-              </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2>Bold Betties Complete Redesign</h2>
+                                <hr class="star-primary">
+                                <img class="img-fluid img-centered" src="img/portfolio/boldbetties_project.png" alt="Bold Betties website project">
+                                <p>I was the lead web developer for the complete redesign of the Bold Betties website in Shopify. I had to develop the theme so that it would be customizable by the client in Shopify. I also created
+                                a custom </p>
+                                <strong>
+                                    <a href="https://www.boldbetties.com/" target="_blank">Boldbetties.com</a>
+                                </strong>
+                                <ul class="list-inline item-details">
+                                    <li><b>Client:</b> Bold Betties
+                                    </li>
+                                    <li><b>Date:</b> May 2017
+                                    </li>
+                                    <li><b>Skills used:</b> HTML, CSS, JavaScript, Shopify, Liquid
+                                    </li>
+                                </ul>
+                                <button class="btn btn-success" type="button" data-dismiss="modal">
+                                    <i class="fa fa-times"></i>
+                                    Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -512,7 +493,7 @@
                 <div class="modal-body">
                   <h2>Project Title</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/game.png" alt="">
+                  <!--<img class="img-fluid img-centered" src="img/portfolio/game.png" alt="">-->
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
                     <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul class="list-inline item-details">
@@ -556,7 +537,7 @@
                 <div class="modal-body">
                   <h2>Project Title</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/safe.png" alt="">
+                  <!--<img class="img-fluid img-centered" src="img/portfolio/safe.png" alt="">-->
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
                     <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul class="list-inline item-details">
@@ -600,7 +581,7 @@
                 <div class="modal-body">
                   <h2>Project Title</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">
+                  <!--<img class="img-fluid img-centered" src="img/portfolio/submarine.png" alt="">-->
                   <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
                     <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul class="list-inline item-details">
@@ -644,7 +625,9 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/freelancer.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <!--<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>-->
 
   </body>
 

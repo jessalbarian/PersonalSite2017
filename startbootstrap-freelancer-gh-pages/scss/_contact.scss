@@ -76,5 +76,20 @@ footer {
 #contact {
   h2 {
     margin-bottom: 1em;
+    text-transform: capitalize;
+  }
+  .contact-block {
+    background-color: #35A8AD;
+    position: relative;
+  }
+  .contact-block-content {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .contact-form-content {
+    padding: 2em;
   }
 }

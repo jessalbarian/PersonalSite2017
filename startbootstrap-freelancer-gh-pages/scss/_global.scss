@@ -28,7 +28,7 @@ h5,
 h6 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 hr.star-light,
@@ -84,6 +84,10 @@ section {
   }
 }
 
+section, #contact {
+  padding: 100px 0 0 0;
+}
+
 section.success {
   color: white;
   background: $theme-success;
@@ -115,4 +119,8 @@ section.success {
       outline: none;
     }
   }
+}
+
+.footer-below {
+  color: lightgray;
 }
