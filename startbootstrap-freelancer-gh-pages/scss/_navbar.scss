@@ -2,7 +2,7 @@
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   border: none;
   background: $theme-primary;
   a:focus {
@@ -11,6 +11,7 @@
   .navbar-brand {
     font-size: 1.1rem;
     color: white;
+    font-weight: 300;
     &.active,
     &:active,
     &:focus,
@@ -19,10 +20,12 @@
     }
   }
   .navbar-nav {
+    font-weight: 300;
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
         color: white;
+        margin: 0 0.5em 0 0.5em;
         &:hover {
           color: $theme-success;
           outline: none;
@@ -37,7 +40,7 @@
   .navbar-toggler {
     font-size: 14px;
     padding: 11px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: white;
     border-color: white;
     &:focus,
