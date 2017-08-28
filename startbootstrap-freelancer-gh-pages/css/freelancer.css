@@ -9,7 +9,9 @@ body {
   overflow-x: hidden; }
 
 p {
-  font-size: 20px; }
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  font-weight: 300; }
 
 p.small {
   font-size: 16px; }
@@ -374,6 +376,8 @@ footer {
     padding: 10px 0;
     color: darkgray;
     background-color: #414042; }
+    footer .footer-below p {
+      font-size: 13px; }
 
 #contact section {
   padding: 0; }
@@ -435,7 +439,8 @@ section, #contact {
   -ms-transform: translate(-50%, -50%); }
 
 #testimonial h2 {
-  padding-top: 1em; }
+  padding-top: 1em;
+  color: white; }
 
 #testimonial blockquote.style {
   font: 18px/30px;
@@ -455,7 +460,8 @@ section, #contact {
     background-position: bottom right;
     background-size: 50px;
     text-align: center;
-    padding: 1.5em; }
+    padding: 1.5em;
+    font-weight: 300; }
 
 .btn-outline {
   font-size: 20px;

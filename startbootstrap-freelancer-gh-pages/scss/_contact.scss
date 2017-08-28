@@ -71,6 +71,10 @@ footer {
     padding: 10px 0;
     color: darkgray;
     background-color: darken($theme-primary, .05);
+
+    p {
+      font-size: 13px;
+    }
   }
 }
 
