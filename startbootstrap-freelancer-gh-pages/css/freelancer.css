@@ -410,6 +410,39 @@ section, #contact {
   #quote a {
     margin: 2em 0 2em 0; }
 
+#request-quote section {
+  padding: 0; }
+
+#request-quote h2 {
+  margin-bottom: 1em;
+  text-transform: capitalize; }
+
+#request-quote .form-block {
+  background-color: white; }
+
+#request-quote .contact-block {
+  background-color: #35A8AD;
+  position: relative;
+  height: -webkit-calc(100vh - 135px);
+  height: -moz-calc(100vh - 135px);
+  height: calc(100vh - 135px); }
+
+#request-quote .contact-block-content {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  #request-quote .contact-block-content p {
+    font-weight: 300; }
+
+#request-quote #contactForm {
+  height: 50vh; }
+
+#request-quote .contact-form-content {
+  padding: 2em;
+  margin-top: 25vh; }
+
 #about p {
   font-weight: 300; }
 
