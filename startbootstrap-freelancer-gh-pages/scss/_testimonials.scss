@@ -2,14 +2,12 @@
 
   h2 {
     padding-top: 1em;
-    color: white;
   }
 
   blockquote.style {
     font: 18px/30px;
-    padding-top: 22px;
-    //margin: 5px;
-    margin-bottom: 10em;
+    padding: 22px 10px 0 10px;
+    margin-bottom: 4em;
     background-image: url("/img/openquote.png");
     background-position: top left;
     background-repeat: no-repeat;
@@ -24,9 +22,17 @@
       background-repeat: no-repeat;
       background-position: bottom right;
       background-size: 50px;
-      text-align: center;
+      text-align: left;
       padding: 1.5em;
       font-weight: 300;
+    }
+  }
+  a {
+    color: #414042;
+    font-weight: 300;
+    text-decoration: none;
+    &:hover {
+      color: white;
     }
   }
 }

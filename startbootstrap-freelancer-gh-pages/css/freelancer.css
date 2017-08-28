@@ -405,6 +405,11 @@ footer {
 section, #contact {
   padding: 0; }
 
+#quote {
+  background-color: #414042; }
+  #quote a {
+    margin: 2em 0 2em 0; }
+
 #about p {
   font-weight: 300; }
 
@@ -439,13 +444,12 @@ section, #contact {
   -ms-transform: translate(-50%, -50%); }
 
 #testimonial h2 {
-  padding-top: 1em;
-  color: white; }
+  padding-top: 1em; }
 
 #testimonial blockquote.style {
   font: 18px/30px;
-  padding-top: 22px;
-  margin-bottom: 10em;
+  padding: 22px 10px 0 10px;
+  margin-bottom: 4em;
   background-image: url("/img/openquote.png");
   background-position: top left;
   background-repeat: no-repeat;
@@ -459,9 +463,16 @@ section, #contact {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 50px;
-    text-align: center;
+    text-align: left;
     padding: 1.5em;
     font-weight: 300; }
+
+#testimonial a {
+  color: #414042;
+  font-weight: 300;
+  text-decoration: none; }
+  #testimonial a:hover {
+    color: white; }
 
 .btn-outline {
   font-size: 20px;
