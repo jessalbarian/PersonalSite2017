@@ -31,7 +31,8 @@ h6 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: capitalize;
-  color: #414042; }
+  color: #414042;
+  padding: 1em 0 1em 0; }
 
 hr.star-light,
 hr.star-primary {
@@ -78,9 +79,6 @@ section {
   section h2 {
     font-size: 3em;
     margin: 0; }
-
-section, #contact {
-  padding: 100px 0 0 0; }
 
 section.success {
   color: white;
@@ -377,6 +375,9 @@ footer {
     color: darkgray;
     background-color: #414042; }
 
+#contact section {
+  padding: 0; }
+
 #contact h2 {
   margin-bottom: 1em;
   text-transform: capitalize; }
@@ -397,8 +398,8 @@ footer {
 #contact .contact-form-content {
   padding: 2em; }
 
-#about h2 {
-  margin-bottom: 1em; }
+section, #contact {
+  padding: 0; }
 
 #about p {
   font-weight: 300; }
@@ -432,6 +433,29 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); }
+
+#testimonial h2 {
+  padding-top: 1em; }
+
+#testimonial blockquote.style {
+  font: 18px/30px;
+  padding-top: 22px;
+  margin-bottom: 10em;
+  background-image: url("/img/openquote.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  text-indent: 65px; }
+  #testimonial blockquote.style p {
+    text-align: center; }
+  #testimonial blockquote.style span {
+    display: block;
+    background-image: url("/img/closequote.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50px;
+    text-align: center;
+    padding: 1.5em; }
 
 .btn-outline {
   font-size: 20px;

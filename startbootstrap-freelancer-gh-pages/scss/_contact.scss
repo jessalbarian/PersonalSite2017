@@ -75,6 +75,9 @@ footer {
 }
 
 #contact {
+  section {
+    padding: 0;
+  }
   h2 {
     margin-bottom: 1em;
     text-transform: capitalize;
@@ -97,4 +100,8 @@ footer {
   .contact-form-content {
     padding: 2em;
   }
+}
+
+section, #contact {
+  padding: 0;
 }

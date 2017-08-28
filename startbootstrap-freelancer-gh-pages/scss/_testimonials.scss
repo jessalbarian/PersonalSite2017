@@ -1,0 +1,31 @@
+#testimonial {
+
+  h2 {
+    padding-top: 1em;
+  }
+
+  blockquote.style {
+    font: 18px/30px;
+    padding-top: 22px;
+    //margin: 5px;
+    margin-bottom: 10em;
+    background-image: url("/img/openquote.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    text-indent: 65px;
+    p {
+      text-align: center;
+    }
+    span {
+      display: block;
+      background-image: url("/img/closequote.png");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: 50px;
+      text-align: center;
+      padding: 1.5em;
+    }
+  }
+}
+
