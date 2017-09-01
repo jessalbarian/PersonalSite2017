@@ -43,6 +43,16 @@
         distance: '0px',
         delay: 200
     }, 200);
+    sr.reveal('.sr-service', {
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
+    sr.reveal('.sr-contact', {
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+    }, 300);
     sr.reveal('.sr-icons', {
         duration: 600,
         scale: 0.3,
@@ -62,11 +72,6 @@
     //     scale: 0.3,
     //     distance: '0px'
     // }, 300);
-    sr.reveal('.sr-contact', {
-        duration: 600,
-        scale: 0.3,
-        distance: '0px'
-    }, 300);
 
     // Floating label headings for the contact form
     $(function () {
