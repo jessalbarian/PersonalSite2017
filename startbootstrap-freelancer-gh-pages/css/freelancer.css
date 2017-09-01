@@ -191,7 +191,6 @@ header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
   height: 100vh;
-  text-align: center;
   color: white;
   background: #3BA8AD; }
   header.masthead img {
@@ -504,7 +503,14 @@ section, #contact {
     color: white; }
 
 #services {
-  background-color: #35a8ad; }
+  background-color: #35a8ad;
+  padding: 3em 0 3em 0; }
+  #services ul {
+    list-style-type: none;
+    padding: 0; }
+  #services li {
+    color: white;
+    font-weight: 300; }
 
 .btn-outline {
   font-size: 20px;
