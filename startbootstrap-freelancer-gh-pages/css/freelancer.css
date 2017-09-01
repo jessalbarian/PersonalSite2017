@@ -373,12 +373,11 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 10px;
-    background-color: #414042; }
-  footer .footer-below {
+    background: -webkit-linear-gradient(60deg, rgba(53, 168, 173, 0.8) 6%, rgba(237, 237, 138, 0.7)); }
+  footer .copyright {
     padding: 10px 0;
-    color: darkgray;
-    background-color: #414042; }
-    footer .footer-below p {
+    color: #414042; }
+    footer .copyright p {
       font-size: 13px; }
 
 #contact section {
@@ -445,7 +444,7 @@ section, #contact {
   margin-top: 25vh; }
 
 #about {
-  background-color: #70d6d6;
+  background: white;
   padding: 3em 0 3em 0; }
   #about p {
     font-weight: 300;
@@ -501,25 +500,25 @@ section, #contact {
       color: #eded8a; }
 
 #services {
-  background-color: #414042;
+  background-color: #70d6d6;
   padding: 3em 0 3em 0; }
   #services h2 {
     padding-bottom: 0;
-    color: #70d6d6; }
+    color: #414042; }
   #services h3 {
-    color: white; }
+    color: #414042; }
   #services hr {
     height: 1px;
-    background-color: #70d6d6; }
+    background-color: #414042; }
   #services .fa {
     margin-top: 0.5em;
     text-align: center;
-    color: #70d6d6; }
+    color: #414042; }
   #services ul {
     list-style-type: none;
     padding: 0; }
   #services li {
-    color: white;
+    color: #414042;
     font-weight: 300; }
 
 .btn-outline {

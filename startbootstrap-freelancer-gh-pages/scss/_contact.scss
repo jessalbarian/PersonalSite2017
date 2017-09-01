@@ -62,20 +62,28 @@ footer {
   }
   .footer-above {
     padding-top: 10px;
-    background-color: $theme-primary;
+    //background-color: $theme-primary;
+    background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  6%, rgba(237, 237, 138, 0.7) );
   }
   .footer-col {
     //margin-bottom: 10px;
   }
-  .footer-below {
+  .copyright {
     padding: 10px 0;
-    color: darkgray;
-    background-color: darken($theme-primary, .05);
-
+    color: #414042;
     p {
       font-size: 13px;
     }
   }
+  //.footer-below {
+  //  padding: 10px 0;
+  //  color: darkgray;
+  //  background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  6%, rgba(237, 237, 138, 0.7) );
+  //
+  //  p {
+  //    font-size: 13px;
+  //  }
+  //}
 }
 
 #contact {
