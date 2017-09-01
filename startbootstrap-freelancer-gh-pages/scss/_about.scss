@@ -29,13 +29,15 @@
 
   .pitchBtn {
     margin-bottom: 5em;
-    color: #414042;
-    border: solid 2px white;
+    background-color: rgba(53, 168, 173, 1);
+    color: white;
+    border: solid 2px rgba(53, 168, 173, 1);
 
 
     &:hover {
       color: #70d6d6;
       border: solid 2px #70d6d6;
+      background-color: white;
     }
   }
 

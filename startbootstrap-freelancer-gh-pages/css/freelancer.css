@@ -468,11 +468,13 @@ section, #contact {
     transform: translate(20%, 40%); }
   #about .pitchBtn {
     margin-bottom: 5em;
-    color: #414042;
-    border: solid 2px white; }
+    background-color: #35a8ad;
+    color: white;
+    border: solid 2px #35a8ad; }
     #about .pitchBtn:hover {
       color: #70d6d6;
-      border: solid 2px #70d6d6; }
+      border: solid 2px #70d6d6;
+      background-color: white; }
 
 #testimonial {
   background-color: #35a8ad;
