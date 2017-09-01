@@ -6,7 +6,11 @@ header.masthead {
   //text-align: center;
 
   color: white;
-  background: $theme-success;
+  //background: $theme-success;
+  background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  6%, rgba(237, 237, 138, 0.7) );
+  //background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  5%, rgba(237, 237, 138, 0.8) );
+
+  //rgba(237, 228, 255, 0.8)
   img {
     display: block;
 

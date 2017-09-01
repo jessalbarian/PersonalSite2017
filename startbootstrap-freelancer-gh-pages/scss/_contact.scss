@@ -87,7 +87,8 @@ footer {
     text-transform: capitalize;
   }
   .contact-block {
-    background-color: #35A8AD;
+    //background-color: #35A8AD;
+    background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8) 35%, rgba(237, 237, 138, 0.7) );
     position: relative;
   }
   .contact-block-content {

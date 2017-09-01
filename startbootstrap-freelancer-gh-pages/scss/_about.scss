@@ -1,5 +1,6 @@
 #about {
-  background-color: #70d6d6;
+  //background-color: #70d6d6;
+  background-color: #414042;
   padding: 3em 0 3em 0;
   //background-image: url('/img/hackathon.jpg');
   //background-position: top;
@@ -9,11 +10,12 @@
   p {
     font-weight: 300;
     text-align: left;
-    color: #414042;
+    color: white;
   }
 
   h2 {
     text-align: left;
+    color: white;
   }
 
   img {
@@ -35,13 +37,13 @@
     }
   }
 
-  .hover-container:hover .image {
-    opacity: 0.3;
-  }
-
-  .hover-container:hover .middle {
-    opacity: 1;
-  }
+  //.hover-container:hover .image {
+  //  opacity: 0.3;
+  //}
+  //
+  //.hover-container:hover .middle {
+  //  opacity: 1;
+  //}
 
   //.image {
   //  opacity: 1;
