@@ -223,6 +223,15 @@ header.masthead {
 
 #portfolio {
   padding: 3em 0 3em 0; }
+  #portfolio .moreBtn {
+    margin-bottom: 5em;
+    background-color: #35a8ad;
+    color: white;
+    border: solid 2px #35a8ad; }
+    #portfolio .moreBtn:hover {
+      color: #70d6d6;
+      border: solid 2px #70d6d6;
+      background-color: white; }
   #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px; }
