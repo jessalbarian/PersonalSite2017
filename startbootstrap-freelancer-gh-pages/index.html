@@ -85,16 +85,9 @@
 
 <!-- Header -->
 <header class="masthead">
-    <!--<div class="container">-->
-        <!--<img class="img-fluid sr-title" src="img/logo.png" alt="Jessie Albarian's logo">-->
-        <!--<div class="intro-text">-->
-            <!--<span class="name sr-title">Jessie Albarian</span>-->
-            <!--<span class="skills sr-title">Software Developer - Designer</span>-->
-        <!--</div>-->
-        <h1 class="sr-title" style="color: white; left: 0; padding: 0.1em 0 0 0.5em; margin: 0; font-size: 10em; font-weight: 400;">Code</h1>
-        <h1 class="sr-title" style="color: white; left: 0; padding: 0.1em 0 0 0.5em; margin: 0; font-size: 10em; font-weight: 400;">Design</h1>
-    <h1 class="sr-title" style="color: white; left: 0; padding: 0.1em 0 0 0.5em; margin: 0; font-size: 10em; font-weight: 400;">Create Solutions</h1>
-    <!--</div>-->
+        <h1 class="sr-title">Code</h1>
+        <h1 class="sr-title">Design</h1>
+        <h1 class="sr-title">Create Solutions</h1>
 </header>
 
 
@@ -1159,6 +1152,16 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.js"></script>
+
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 500) {
+            $('.navbar').css('background','rgba(53, 168, 173, 1)');
+        } else {
+            $('.navbar').css('background','transparent');
+        }
+    });
+</script>
 
 </body>
 

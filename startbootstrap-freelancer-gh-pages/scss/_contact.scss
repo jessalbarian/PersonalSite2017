@@ -63,7 +63,7 @@ footer {
   .footer-above {
     padding-top: 10px;
     //background-color: $theme-primary;
-    background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  6%, rgba(237, 237, 138, 0.7) );
+    background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  30%, rgba(237, 237, 138, 0.7) );
   }
   .footer-col {
     //margin-bottom: 10px;
@@ -120,8 +120,9 @@ section, #contact {
 }
 
 #quote {
-  background-color: #414042;
-
+  //background-color: #414042;
+  background-color:white;
+  color: black;
   a {
     margin: 2em 0 2em 0;
   }
