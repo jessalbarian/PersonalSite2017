@@ -21,7 +21,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-  color: #3BA8AD;
+  color: #70d6d6;
   outline: none; }
 
 h1,
@@ -147,7 +147,7 @@ button {
       color: white;
       margin: 0 0.5em 0 0.5em; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #3BA8AD;
+        color: #70d6d6;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: white; }
@@ -445,38 +445,32 @@ section, #contact {
   padding: 2em;
   margin-top: 25vh; }
 
-#about p {
-  font-weight: 300; }
-
-#about img {
-  display: block;
-  margin: 0 auto 2em auto; }
-
-#about .pitchBtn {
-  margin-bottom: 5em; }
-
-#about .hover-container:hover .image {
-  opacity: 0.3; }
-
-#about .hover-container:hover .middle {
-  opacity: 1; }
-
-#about .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .3s ease;
-  backface-visibility: hidden; }
-
-#about .middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); }
+#about {
+  background-color: #70d6d6;
+  padding: 3em 0 3em 0; }
+  #about p {
+    font-weight: 300;
+    text-align: left;
+    color: #414042; }
+  #about h2 {
+    text-align: left; }
+  #about img {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(20%, 40%); }
+  #about .pitchBtn {
+    margin-bottom: 5em;
+    color: #414042;
+    border: solid 2px #414042; }
+    #about .pitchBtn:hover {
+      color: #35a8ad;
+      border: solid 2px white; }
+  #about .hover-container:hover .image {
+    opacity: 0.3; }
+  #about .hover-container:hover .middle {
+    opacity: 1; }
 
 #testimonial h2 {
   padding-top: 1em; }
@@ -508,6 +502,9 @@ section, #contact {
   text-decoration: none; }
   #testimonial a:hover {
     color: white; }
+
+#services {
+  background-color: #35a8ad; }
 
 .btn-outline {
   font-size: 20px;
