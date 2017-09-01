@@ -1,6 +1,6 @@
 #about {
-  //background-color: #70d6d6;
-  background-color: #414042;
+  background-color: #70d6d6;
+  //background-color: #414042;
   padding: 3em 0 3em 0;
   //background-image: url('/img/hackathon.jpg');
   //background-position: top;
@@ -10,12 +10,12 @@
   p {
     font-weight: 300;
     text-align: left;
-    color: white;
+    color: #414042;
   }
 
   h2 {
     text-align: left;
-    color: white;
+    color: #414042;
   }
 
   img {
@@ -29,11 +29,12 @@
   .pitchBtn {
     margin-bottom: 5em;
     color: #414042;
-    border: solid 2px #414042;
+    border: solid 2px white;
+
 
     &:hover {
-      color: #35a8ad;
-      border: solid 2px white;
+      color: #70d6d6;
+      border: solid 2px #70d6d6;
     }
   }
 
