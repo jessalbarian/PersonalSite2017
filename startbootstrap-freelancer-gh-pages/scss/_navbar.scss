@@ -11,7 +11,7 @@
   .navbar-brand {
     font-size: 1.1rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     &.active,
     &:active,
     &:focus,
@@ -25,6 +25,7 @@
     li.nav-item {
       a.nav-link {
         color: white;
+        font-weight: 400;
         margin: 0 0.5em 0 0.5em;
         &:hover {
           color: #70d6d6;

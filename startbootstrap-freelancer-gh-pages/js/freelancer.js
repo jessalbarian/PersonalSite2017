@@ -30,10 +30,13 @@
     $(window).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $('.navbar').css('background','rgba(53, 168, 173, 1)');
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $('.navbar').css('background','transparent');
         }
     });
+
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
@@ -63,15 +66,6 @@
         scale: 0.3,
         distance: '0px'
     }, 200);
-    // sr.reveal('.sr-button', {
-    //     duration: 1000,
-    //     delay: 200
-    // });
-    // sr.reveal('.sr-project', {
-    //     duration: 600,
-    //     scale: 0.3,
-    //     distance: '0px'
-    // }, 300);
 
     // Floating label headings for the contact form
     $(function () {

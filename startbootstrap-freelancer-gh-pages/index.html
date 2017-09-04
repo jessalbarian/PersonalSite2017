@@ -84,7 +84,7 @@
 
 
 <!-- Header -->
-<header class="masthead">
+<header class="masthead" id="masthead">
         <h1 class="sr-title">Code</h1>
         <h1 class="sr-title">Design</h1>
         <h1 class="sr-title">Create Solutions</h1>
@@ -97,34 +97,77 @@
         <div class="row">
 
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <h2 class="sr-about">Meet Jessie</h2>
-                <p class="sr-about">I am a professional freelance software developer, designer, traveler and
-                    entrepreneur. My mission is to provide exceptional software and stunning
-                    designs to help the overall success of businesses. I don't just build products, I <strong>create
-                        solutions</strong>. I am an artist at heart, so I solve problems
-                    and work on projects with both my creativity and logical thinking. <br><br>When I'm not working
-                    you'll find me reading a book
-                    in my hammock, hiking trails across the Rocky Mountains, or traveling the world.</p>
-                <div class="sr-about">
-                    <a href="pitch_deck.html" class="btn btn-lg btn-outline pitchBtn">
-                        <i class="fa fa-clock-o"></i> 90 Second Pitch Deck
-                    </a>
-                    <a href="resume.html" class="btn btn-lg btn-outline pitchBtn">
-                        <i class="fa fa-id-card-o"></i> Resume
-                    </a>
-                </div>
+                <h2 class="sr-about">Hi! I'm Jessie.</h2>
+                <hr>
+                <p class="sr-about">I am a professional freelance software developer and designer who has
+                    experience with websites, apps, UX/UI, branding, and print design. But I
+                    don’t just build products, <strong>I create solutions</strong>. I dive deep into my client’s
+                    goals, needs, and wants, and my work revolves around these in order to
+                    help the overall success of their business.<br><br>
+
+                    I am an artist at heart with a logical mind, so I work on projects with both my
+                    creativity and problem solving mindset.<br><br>
+
+                    When I am not working, you can find me reading a book in my hammock,
+                    writing down new business ideas in my journal, or hiking trails across the
+                    Rocky Mountains.</p>
+                <!--<div class="sr-about">-->
+                    <!--<a href="pitch_deck.html" class="btn btn-lg btn-outline pitchBtn">-->
+                        <!--<i class="fa fa-clock-o"></i> 90 Second Pitch Deck-->
+                    <!--</a>-->
+                    <!--<a href="resume.html" class="btn btn-lg btn-outline pitchBtn">-->
+                        <!--<i class="fa fa-id-card-o"></i> Resume-->
+                    <!--</a>-->
+                <!--</div>-->
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="hover-container sr-about">
+                <div class="sr-about">
                     <img class="img-fluid img-circle" src="img/jessiealbarian.jpg" alt="Jessie Albarian">
-                    <div class="middle">
-
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+
+<!-- Social Media Section -->
+<section id="quote">
+        <div class="text-center">
+            <div class="footer-above">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col col-md-12">
+                            <!--<img src="img/header_logo.png" />-->
+                            <ul class="list-inline">
+                                <li class="list-inline-item sr-icons">
+                                    <a class="btn-social btn-outline" href="https://www.linkedin.com/in/jessalbarian/"
+                                       target="_blank">
+                                        <i class="fa fa-fw fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item sr-icons">
+                                    <a class="btn-social btn-outline" href="https://www.facebook.com/jessalbarian"
+                                       target="_blank">
+                                        <i class="fa fa-fw fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item sr-icons">
+                                    <a class="btn-social btn-outline" href="https://twitter.com/jessalbarian" target="_blank">
+                                        <i class="fa fa-fw fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item sr-icons">
+                                    <a class="btn-social btn-outline" href="http://github.com/jessalbarian" target="_blank">
+                                        <i class="fa fa-fw fa-github"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 
 
@@ -337,19 +380,6 @@
                     </span>
                     <p>- Ginger, <a href="http://travelersmindset.com/" target="_blank">The Traveler's Mindset</a></p>
                 </blockquote>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!-- Banner Section -->
-<section id="quote">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div style="height: 7em;">
-                </div>
             </div>
         </div>
     </div>
@@ -1061,6 +1091,8 @@
     </div>
 </div>
 
+
+<!-- Scroll reveal animations -->
 <script src="js/scrollreveal.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
@@ -1078,15 +1110,6 @@
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.js"></script>
 
-<script>
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 50) {
-            $('.navbar').css('background','rgba(53, 168, 173, 1)');
-        } else {
-            $('.navbar').css('background','transparent');
-        }
-    });
-</script>
 
 </body>
 
