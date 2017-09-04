@@ -480,9 +480,9 @@ section, #contact {
   #about img {
     display: block;
     position: absolute;
-    top: 30%;
-    left: 30%;
-    transform: translate(20%, 40%); }
+    width: 35em;
+    top: 40%;
+    transform: translate(0%, 40%); }
   #about .pitchBtn {
     margin-bottom: 5em;
     background-color: #35a8ad;
@@ -529,13 +529,10 @@ section, #contact {
   background-color: #70d6d6;
   padding: 3em 0 3em 0; }
   #services h2 {
-    padding-bottom: 0;
-    color: #414042; }
+    color: #414042;
+    text-align: left; }
   #services h3 {
     color: #414042; }
-  #services hr {
-    height: 1px;
-    background-color: #414042; }
   #services .fa {
     margin-top: 0.5em;
     text-align: center;
@@ -545,7 +542,8 @@ section, #contact {
     padding: 0; }
   #services li {
     color: #414042;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 20px; }
 
 .btn-outline {
   font-size: 20px;
