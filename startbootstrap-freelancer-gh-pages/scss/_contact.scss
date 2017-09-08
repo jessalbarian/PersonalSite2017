@@ -66,11 +66,7 @@ footer {
   }
   .footer-above {
     padding-top: 10px;
-    //background-color: $theme-primary;
     background: rgba(53, 168, 173, 1);
-  }
-  .footer-col {
-    //margin-bottom: 10px;
   }
   .copyright {
     padding: 10px 0;
@@ -79,36 +75,31 @@ footer {
       font-size: 14px;
     }
   }
-  //.footer-below {
-  //  padding: 10px 0;
-  //  color: darkgray;
-  //  background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8)  6%, rgba(237, 237, 138, 0.7) );
-  //
-  //  p {
-  //    font-size: 13px;
-  //  }
-  //}
 }
 
 #contact {
+  display: block;
+  .contact {
+    display: inline-block;
+  }
   section {
     padding: 0;
   }
   h2 {
     text-transform: capitalize;
+    margin-top: 1em;
   }
   .contact-block {
-    //background-color: #35A8AD;
     background-color: rgba(53, 168, 173, 0.8);
-    //background: -webkit-linear-gradient(60deg,  rgba(53, 168, 173, 0.8) 35%, rgba(237, 237, 138, 0.7) );
-    position: relative;
+    //position: relative;
+    height: 50vh;
   }
   .contact-block-content {
-    position: absolute;
+    //position: absolute;
     color: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    //top: 50%;
+    //left: 50%;
+    //transform: translate(-50%, -50%);
 
     p {
       font-weight: 300;
@@ -178,8 +169,6 @@ section, #contact {
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
   .contact-block {
-    //position: absolute;
-    //height: 100px;
     height: 100vh;
   }
   .contact-block-content {
