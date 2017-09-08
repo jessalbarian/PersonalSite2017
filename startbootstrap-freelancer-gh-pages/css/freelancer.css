@@ -237,17 +237,21 @@ header.masthead {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
-/* Phone screen sizes */
-@media only screen and (max-device-width: 480px) {
+/* Small laptop screen sizes */
+@media only screen and (max-device-width: 1300px) and (min-device-width: 769px) {
   header.masthead .sr-title {
-    font-size: 3em; } }
+    font-size: 5em; } }
 
 /* Tablet screen sizes */
 @media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
   header.masthead .sr-title {
     font-size: 5em; } }
 
-/* Small laptop screen sizes */
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  header.masthead .sr-title {
+    font-size: 3em; } }
+
 #portfolio {
   padding: 3em 0 0 0; }
   #portfolio .moreBtn {
