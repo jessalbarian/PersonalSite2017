@@ -223,7 +223,7 @@ header.masthead {
       font-size: 1.75em; } }
 
 #portfolio {
-  padding: 3em 0 3em 0; }
+  padding: 3em 0 0 0; }
   #portfolio .moreBtn {
     margin-bottom: 5em;
     background-color: #35a8ad;
@@ -508,7 +508,7 @@ section, #contact {
     background-repeat: no-repeat;
     background-size: 50px;
     text-indent: 65px;
-    font-size: 20px; }
+    font-size: 17px; }
     #testimonial blockquote.style p {
       text-align: center; }
     #testimonial blockquote.style span {
@@ -527,11 +527,11 @@ section, #contact {
     #testimonial a:hover {
       color: #eded8a; }
 
-#testimonial1 {
+.testimonial {
   background-color: #414042;
   color: white;
   padding: 3em 0 3em 0; }
-  #testimonial1 blockquote.style {
+  .testimonial blockquote.style {
     font: 18px/30px;
     padding: 22px 10px 0 10px;
     background-image: url("/img/openquote_blue.png");
@@ -539,10 +539,10 @@ section, #contact {
     background-repeat: no-repeat;
     background-size: 50px;
     text-indent: 65px;
-    font-size: 20px; }
-    #testimonial1 blockquote.style p {
+    font-size: 17px; }
+    .testimonial blockquote.style p {
       text-align: center; }
-    #testimonial1 blockquote.style span {
+    .testimonial blockquote.style span {
       display: block;
       background-image: url("/img/closequote_blue.png");
       background-repeat: no-repeat;
@@ -551,11 +551,11 @@ section, #contact {
       text-align: left;
       padding: 1.5em;
       font-weight: 300; }
-  #testimonial1 a {
+  .testimonial a {
     color: white;
     font-weight: 300;
     text-decoration: none; }
-    #testimonial1 a:hover {
+    .testimonial a:hover {
       color: rgba(53, 168, 173, 0.8); }
 
 #services {

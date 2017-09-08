@@ -51,6 +51,18 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
+    sr.reveal('.sr-quote1', {
+        duration: 900,
+        scale: 0.3,
+        distance: '0px',
+        delay: 400
+    }, 500);
+    sr.reveal('.sr-quote2', {
+        duration: 900,
+        scale: 0.3,
+        distance: '0px',
+        delay: 400
+    }, 500);
     sr.reveal('.sr-contact', {
         duration: 600,
         scale: 0.3,
