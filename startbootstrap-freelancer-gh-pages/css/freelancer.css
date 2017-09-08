@@ -237,6 +237,13 @@ header.masthead {
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
 
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  header.masthead .sr-title {
+    font-size: 3em; } }
+
+/* Tablet screen sizes */
+/* Small laptop screen sizes */
 #portfolio {
   padding: 3em 0 0 0; }
   #portfolio .moreBtn {
@@ -467,7 +474,6 @@ section, #contact {
   height: calc(100vh - 135px); }
 
 #request-quote .contact-block-content {
-  position: absolute;
   color: white;
   top: 50%;
   left: 50%;
@@ -482,6 +488,17 @@ section, #contact {
   padding: 2em;
   margin-top: 25vh; }
 
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  .contact-block {
+    height: 100vh; }
+  .contact-block-content {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0); } }
+
+/* Tablet screen sizes */
+/* Small laptop screen sizes */
 #about {
   background: white;
   padding: 3em 0 3em 0; }
@@ -495,8 +512,6 @@ section, #contact {
     color: #414042; }
   #about img {
     display: block;
-    position: absolute;
-    width: 35em;
     top: 40%;
     transform: translate(0%, 40%); }
   #about .pitchBtn {
@@ -509,6 +524,17 @@ section, #contact {
       border: solid 2px #70d6d6;
       background-color: white; }
 
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  #about h2 {
+    font-size: 2em; }
+  #about img {
+    width: 70%;
+    top: 0;
+    transform: translate(0, 0); } }
+
+/* Tablet screen sizes */
+/* Small laptop screen sizes */
 #testimonial {
   background-color: #35a8ad;
   padding: 3em 0 3em 0; }

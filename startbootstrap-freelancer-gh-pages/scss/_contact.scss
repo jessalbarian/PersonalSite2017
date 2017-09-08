@@ -147,16 +147,14 @@ section, #contact {
     background-color: white;
   }
   .contact-block {
-    //background-color: #35A8AD;
     background-color: rgba(53, 168, 173, 0.8);
     position: relative;
-    //height: 100vh;
     height: -webkit-calc(#{$full-view-height} - #{$footer-height});
     height:    -moz-calc(#{$full-view-height} - #{$footer-height});
     height:         calc(#{$full-view-height} - #{$footer-height});
   }
   .contact-block-content {
-    position: absolute;
+    //position: absolute;
     color: white;
     top: 50%;
     left: 50%;
@@ -175,4 +173,26 @@ section, #contact {
     padding: 2em;
     margin-top: 25vh;
   }
+}
+
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  .contact-block {
+    //position: absolute;
+    //height: 100px;
+    height: 100vh;
+  }
+  .contact-block-content {
+    top: 0;
+    left: 0;
+    transform: translate(0,0);
+  }
+}
+
+/* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+}
+
+/* Small laptop screen sizes */
+@media only screen and (max-device-width: 1280px) and (min-device-width: 769px) {
 }

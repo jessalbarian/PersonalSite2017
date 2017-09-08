@@ -55,3 +55,20 @@ header.masthead {
     }
   }
 }
+
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  header.masthead {
+    .sr-title {
+      font-size: 3em;
+    }
+  }
+}
+
+/* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+}
+
+/* Small laptop screen sizes */
+@media only screen and (max-device-width: 1280px) and (min-device-width: 769px) {
+}

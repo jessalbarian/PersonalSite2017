@@ -22,8 +22,7 @@
 
   img {
     display: block;
-    position: absolute;
-    width: 35em;
+    //position: absolute;
     top: 40%;
     transform: translate(0%, 40%);
   }
@@ -41,4 +40,26 @@
       background-color: white;
     }
   }
+}
+
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  #about {
+    h2 {
+      font-size: 2em;
+    }
+    img {
+      width: 70%;
+      top: 0;
+      transform: translate(0,0);
+    }
+  }
+}
+
+/* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+}
+
+/* Small laptop screen sizes */
+@media only screen and (max-device-width: 1280px) and (min-device-width: 769px) {
 }
