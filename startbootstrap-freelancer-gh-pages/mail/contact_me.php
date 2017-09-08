@@ -1,4 +1,5 @@
 <?php
+if(isset($_POST['submit'])) {
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -25,5 +26,7 @@ $headers .= 'From: JessieAlbarian.com' . "\r\n".
             'X-Mailer: PHP/' . phpversion();
 
 mail($to,$email_subject,$email_body,$headers);
-return true;			
+} else {
+    echo "Error has occurred with the contact form.";
+}
 ?>
