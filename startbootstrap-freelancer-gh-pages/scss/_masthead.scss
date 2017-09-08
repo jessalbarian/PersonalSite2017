@@ -17,7 +17,7 @@ header.masthead {
     margin: 4em auto 20px;
   }
 
-  .sr-title {
+  .title {
     color: white;
     left: 0;
     padding: 0.1em 0 0 0.5em;
@@ -59,7 +59,7 @@ header.masthead {
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
   header.masthead {
-    .sr-title {
+    .title {
       font-size: 3em;
     }
   }
@@ -68,7 +68,7 @@ header.masthead {
 /* Tablet screen sizes */
 @media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
   header.masthead {
-    .sr-title {
+    .title {
       font-size: 5em;
     }
   }
