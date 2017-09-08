@@ -527,10 +527,14 @@ section, #contact {
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
   #about h2 {
-    font-size: 2em; }
+    font-size: 2em;
+    text-align: center; }
+  #about p {
+    text-align: center; }
   #about img {
     width: 70%;
     top: 0;
+    margin: 0 auto 0 auto;
     transform: translate(0, 0); } }
 
 /* Tablet screen sizes */
@@ -619,6 +623,15 @@ section, #contact {
     font-weight: 300;
     font-size: 20px; }
 
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  #services {
+    text-align: center; }
+    #services h2 {
+      text-align: center; } }
+
+/* Tablet screen sizes */
+/* Small laptop screen sizes */
 .btn-outline {
   font-size: 20px;
   margin-top: 15px;
