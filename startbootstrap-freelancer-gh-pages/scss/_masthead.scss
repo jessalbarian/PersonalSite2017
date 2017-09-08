@@ -67,6 +67,11 @@ header.masthead {
 
 /* Tablet screen sizes */
 @media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+  header.masthead {
+    .sr-title {
+      font-size: 5em;
+    }
+  }
 }
 
 /* Small laptop screen sizes */

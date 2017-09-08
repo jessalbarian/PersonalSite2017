@@ -243,6 +243,10 @@ header.masthead {
     font-size: 3em; } }
 
 /* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+  header.masthead .sr-title {
+    font-size: 5em; } }
+
 /* Small laptop screen sizes */
 #portfolio {
   padding: 3em 0 0 0; }
@@ -538,6 +542,17 @@ section, #contact {
     transform: translate(0, 0); } }
 
 /* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+  #about h2 {
+    text-align: center; }
+  #about p {
+    text-align: center; }
+  #about img {
+    width: 70%;
+    top: 0;
+    margin: 0 auto 0 auto;
+    transform: translate(0, 0); } }
+
 /* Small laptop screen sizes */
 #testimonial {
   background-color: #35a8ad;
@@ -631,6 +646,12 @@ section, #contact {
       text-align: center; } }
 
 /* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+  #services {
+    text-align: center; }
+    #services h2 {
+      text-align: center; } }
+
 /* Small laptop screen sizes */
 .btn-outline {
   font-size: 20px;
