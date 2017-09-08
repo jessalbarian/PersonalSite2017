@@ -473,7 +473,8 @@ section, #contact {
   #about p {
     font-weight: 300;
     text-align: left;
-    color: #414042; }
+    color: #414042;
+    padding-bottom: 1em; }
   #about h2 {
     text-align: left;
     color: #414042; }
@@ -533,8 +534,7 @@ section, #contact {
   #testimonial1 blockquote.style {
     font: 18px/30px;
     padding: 22px 10px 0 10px;
-    margin-bottom: 4em;
-    background-image: url("/img/openquote.png");
+    background-image: url("/img/openquote_blue.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 50px;
@@ -544,7 +544,7 @@ section, #contact {
       text-align: center; }
     #testimonial1 blockquote.style span {
       display: block;
-      background-image: url("/img/closequote.png");
+      background-image: url("/img/closequote_blue.png");
       background-repeat: no-repeat;
       background-position: bottom right;
       background-size: 50px;
