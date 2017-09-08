@@ -55,13 +55,13 @@
         duration: 900,
         scale: 0.3,
         distance: '0px',
-        delay: 400
+        delay: 200
     }, 500);
     sr.reveal('.sr-quote2', {
         duration: 900,
         scale: 0.3,
         distance: '0px',
-        delay: 400
+        delay: 200
     }, 500);
     sr.reveal('.sr-contact', {
         duration: 600,
