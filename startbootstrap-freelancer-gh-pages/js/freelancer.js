@@ -30,10 +30,10 @@
     $(window).scroll(function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
-            $('.navbar').css('background','rgba(53, 168, 173, 1)');
+            $('#mainNav').css('background','rgba(53, 168, 173, 1)');
         } else {
             $("#mainNav").removeClass("navbar-shrink");
-            $('.navbar').css('background','transparent');
+            $('#mainNav').css('background','transparent');
         }
     });
 
