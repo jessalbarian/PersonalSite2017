@@ -126,6 +126,21 @@ button {
   height: calc(100vh - 108px);
   margin-top: 4em; }
 
+/* Phone screen sizes */
+@media only screen and (max-device-width: 480px) {
+  #pitch-deck iframe, #resume iframe {
+    width: 100vw; } }
+
+/* Tablet screen sizes */
+@media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
+  #pitch-deck iframe, #resume iframe {
+    width: 100vw; } }
+
+/* Small laptop screen sizes */
+@media only screen and (max-device-width: 1280px) and (min-device-width: 769px) {
+  #pitch-deck iframe, #resume iframe {
+    width: 90vw; } }
+
 #mainNav {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
