@@ -40,12 +40,12 @@
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
-    sr.reveal('.sr-title', {
-        duration: 800,
-        scale: 0.5,
-        distance: '0px',
-        delay: 200
-    }, 200);
+    // sr.reveal('.sr-title', {
+    //     duration: 800,
+    //     scale: 0.5,
+    //     distance: '0px',
+    //     delay: 200
+    // }, 200);
     sr.reveal('.sr-service', {
         duration: 600,
         scale: 0.3,
