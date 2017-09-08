@@ -28,9 +28,35 @@
   }
 }
 
+#skills {
+  background-color: #35a8ad;
+  padding: 3em 0 3em 0;
+  color: white;
+
+  h2 {
+    color: white;
+    text-align: left;
+  }
+
+  h3 {
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+  }
+}
+
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
-  #services {
+  #skills, #services {
     text-align: center;
     h2 {
       text-align: center;
@@ -40,7 +66,7 @@
 
 /* Tablet screen sizes */
 @media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
-  #services {
+  #skills, #services {
     text-align: center;
     h2 {
       text-align: center;

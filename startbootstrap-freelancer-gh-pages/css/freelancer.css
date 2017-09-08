@@ -680,18 +680,35 @@ section, #contact {
     font-weight: 300;
     font-size: 20px; }
 
+#skills {
+  background-color: #35a8ad;
+  padding: 3em 0 3em 0;
+  color: white; }
+  #skills h2 {
+    color: white;
+    text-align: left; }
+  #skills h3 {
+    color: white; }
+  #skills ul {
+    list-style-type: none;
+    padding: 0; }
+  #skills li {
+    color: white;
+    font-weight: 300;
+    font-size: 20px; }
+
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
-  #services {
+  #skills, #services {
     text-align: center; }
-    #services h2 {
+    #skills h2, #services h2 {
       text-align: center; } }
 
 /* Tablet screen sizes */
 @media only screen and (max-device-width: 768px) and (min-device-width: 481px) {
-  #services {
+  #skills, #services {
     text-align: center; }
-    #services h2 {
+    #skills h2, #services h2 {
       text-align: center; } }
 
 /* Small laptop screen sizes */
