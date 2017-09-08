@@ -432,6 +432,8 @@ footer {
     display: inline-block; }
   #contact section {
     padding: 0; }
+  #contact .contact-content {
+    padding-bottom: 2em; }
   #contact h2 {
     text-transform: capitalize;
     margin-top: 1em; }
