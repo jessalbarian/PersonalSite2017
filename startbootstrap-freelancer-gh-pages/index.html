@@ -179,19 +179,17 @@
         <h2 class="sr-service">What I Do</h2>
         <hr>
         <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12 sr-service">
+            <div class="col-lg-4 col-md-12 col-sm-12 sr-service">
                 <i class="fa fa-laptop fa-3x"></i>
                 <h3>Websites</h3>
                 <ul>
                     <li>Website Development</li>
                     <li>Website Redesigns</li>
-                    <li>SEO</li>
-                    <li>WIX, WordPress, Shopify, Squarespace</li>
-                    <li>Google Analytics</li>
+                    <li>WIX, WordPress, Shopify</li>
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-12 col-sm-12 sr-service">
+            <div class="col-lg-4 col-md-12 col-sm-12 sr-service">
                 <i class="fa fa-mobile-phone fa-3x"></i>
                 <h3>Mobile Apps</h3>
                 <ul>
@@ -201,24 +199,13 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-12 col-sm-12 sr-service">
+            <div class="col-lg-4 col-md-12 col-sm-12 sr-service">
                 <i class="fa fa-paint-brush fa-3x"></i>
-                <h3>Branding</h3>
+                <h3>Graphics</h3>
                 <ul>
                     <li>Logos</li>
-                    <li>Graphics</li>
-                    <li>Brand Creation</li>
-                </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-12 col-sm-12 sr-service">
-                <i class="fa fa-book fa-3x"></i>
-                <h3>Print</h3>
-                <ul>
-                    <li>Business Cards</li>
-                    <li>Business Collateral</li>
-                    <li>Posters and Flyers</li>
-                    <li>Apparel Designs</li>
+                    <li>Mockups</li>
+                    <li>Posters/Flyers</li>
                 </ul>
             </div>
 
@@ -261,7 +248,6 @@
                     <li>AngularJS 2</li>
                     <li>jQuery</li>
                     <li>Ionic</li>
-                    <li>ASP.NET</li>
                 </ul>
             </div>
 
@@ -271,7 +257,6 @@
                 <ul>
                     <li>Adobe Illustrator</li>
                     <li>Adobe Photoshop</li>
-                    <li>Adobe InDesign</li>
                     <li>InVision</li>
                     <li>Balsamiq</li>
                 </ul>
@@ -1358,7 +1343,15 @@
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.js"></script>
 
+<script>
+    // Show loading animation
+    document.getElementById('cover').style.display = 'initial';
 
+    $(window).load(function(){
+        // Stop loading animation
+        $('#cover').hide();
+    })
+</script>
 
 </body>
 

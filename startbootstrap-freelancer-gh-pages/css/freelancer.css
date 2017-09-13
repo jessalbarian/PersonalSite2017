@@ -126,6 +126,17 @@ button {
   height: calc(100vh - 108px);
   margin-top: 4em; }
 
+/* Loading animation */
+#cover {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: url("https://cdn.shopify.com/s/files/1/0414/3417/files/animatedfox.gif?6215675357225360794") no-repeat center center #FFF; }
+
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
   #pitch-deck iframe, #resume iframe {
