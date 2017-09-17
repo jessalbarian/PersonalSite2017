@@ -178,29 +178,66 @@ button {
       border-color: rgba(53, 168, 173, 0.8);
       background-color: rgba(53, 168, 173, 0.8); }
 
+#otherNav {
+  font-family: Quicksand, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: none;
+  background-color: rgba(53, 168, 173, 0.8); }
+  #otherNav a:focus {
+    outline: none; }
+  #otherNav .navbar-brand {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400; }
+    #otherNav .navbar-brand.active, #otherNav .navbar-brand:active, #otherNav .navbar-brand:focus, #otherNav .navbar-brand:hover {
+      color: white; }
+  #otherNav .navbar-nav {
+    font-weight: 300;
+    letter-spacing: 1px; }
+    #otherNav .navbar-nav li.nav-item a.nav-link {
+      color: white;
+      font-weight: 400;
+      margin: 0 0.5em 0 0.5em; }
+      #otherNav .navbar-nav li.nav-item a.nav-link:hover {
+        color: #70d6d6;
+        outline: none; }
+      #otherNav .navbar-nav li.nav-item a.nav-link:active, #otherNav .navbar-nav li.nav-item a.nav-link:focus {
+        color: white; }
+  #otherNav .navbar-toggler {
+    font-size: 14px;
+    padding: 11px;
+    text-transform: capitalize;
+    color: white;
+    border-color: white; }
+    #otherNav .navbar-toggler:focus, #otherNav .navbar-toggler:hover {
+      color: white;
+      border-color: rgba(53, 168, 173, 0.8);
+      background-color: rgba(53, 168, 173, 0.8); }
+
 @media (min-width: 992px) {
-  #mainNav {
+  #mainNav, #otherNav {
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
-    #mainNav .navbar-brand {
+    #mainNav .navbar-brand, #otherNav .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #otherNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
       background: rgba(53, 168, 173, 0.8); }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #otherNav .navbar-nav > li.nav-item > a.nav-link.active:active, #otherNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #otherNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
         background: rgba(53, 168, 173, 0.8); }
-  #mainNav.navbar-shrink {
+  #otherNav.navbar-shrink, #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px; }
-    #mainNav.navbar-shrink .navbar-brand {
+    #otherNav.navbar-shrink .navbar-brand, #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 
 header.masthead {

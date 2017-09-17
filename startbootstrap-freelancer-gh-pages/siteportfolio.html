@@ -46,10 +46,10 @@
     <link href="css/freelancer.min.css" rel="stylesheet">
 
 </head>
-<body style="background-color: rgba(53,168,173,.8); height: 100%;">
+<body style="height: 100%;">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="otherNav">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="index.html">Jessie Albarian</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -84,7 +84,7 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
     <div class="container">
-        <h2 class="text-center">Website Portfolio</h2>
+        <h2 class="text-center" style="margin-top: 2em;">Website Portfolio</h2>
         <!--<hr>-->
         <div class="row">
             <div class="col-sm-4 portfolio-item">
@@ -785,24 +785,11 @@
 <script src="js/freelancer.js"></script>
 
 <script>
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 50) {
-            $('.navbar').css('background', 'rgba(53, 168, 173, 1)');
-        } else {
-            $('.navbar').css('background', 'transparent');
-        }
-    });
+    document.onload = function () {
+        $('.navbar').css('background', 'rgba(53, 168, 173, 1)');
+    };
 </script>
 
 </body>
-<script>
-    $(window).scroll(function () {
-        if ($(window).scrollTop() >= 50) {
-            $('.navbar').css('background', 'rgba(53, 168, 173, 1)');
-        } else {
-            $('.navbar').css('background', 'transparent');
-        }
-    });
-</script>
 
 </html>
