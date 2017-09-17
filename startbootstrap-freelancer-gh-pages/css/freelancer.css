@@ -3,8 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   letter-spacing: 1.2px;
   overflow-x: hidden; }
 
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: capitalize;
   color: #414042;
@@ -126,17 +127,6 @@ button {
   height: calc(100vh - 108px);
   margin-top: 4em; }
 
-/* Loading animation */
-#cover {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  background: url("https://cdn.shopify.com/s/files/1/0414/3417/files/animatedfox.gif?6215675357225360794") no-repeat center center #FFF; }
-
 /* Phone screen sizes */
 @media only screen and (max-device-width: 480px) {
   #pitch-deck iframe, #resume iframe {
@@ -153,7 +143,7 @@ button {
     width: 90vw; } }
 
 #mainNav {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Quicksand, Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: capitalize;
   border: none; }
@@ -228,9 +218,9 @@ header.masthead {
     padding: 0.1em 0 0 0.5em;
     margin: 0;
     font-size: 10em;
-    font-weight: 400; }
+    font-weight: 600; }
   header.masthead .intro-text .name {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
     display: block;
@@ -251,20 +241,20 @@ header.masthead {
 .animated1 {
   padding-top: 95px;
   margin-bottom: 60px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.animated2 {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.animated2 {
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
-
 .animated3 {
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
@@ -333,7 +323,7 @@ header.masthead {
         -moz-transition: all ease 0.5s;
         transition: all ease 0.5s;
         opacity: 0;
-        background: rgba(53, 168, 173, 0.7); }
+        background: rgba(65, 64, 66, 0.9); }
         #portfolio .portfolio-item .portfolio-link .caption:hover {
           opacity: 1; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -491,13 +481,21 @@ footer {
     padding-bottom: 2em; }
   #contact h2 {
     text-transform: capitalize;
-    margin-top: 1em; }
+    margin-top: 3em; }
   #contact .contact-block {
     background-color: rgba(53, 168, 173, 0.8); }
   #contact .contact-block-content {
     color: white; }
+    #contact .contact-block-content #email {
+      margin-bottom: 5em;
+      padding-bottom: 1em; }
     #contact .contact-block-content p {
       font-weight: 300; }
+      #contact .contact-block-content p a {
+        color: white; }
+        #contact .contact-block-content p a:hover {
+          text-decoration: none;
+          color: #414042; }
   #contact .contact-form-content {
     padding: 2em; }
 
@@ -607,69 +605,50 @@ section, #contact {
     transform: translate(0, 0); } }
 
 /* Small laptop screen sizes */
-#testimonial {
-  background-color: #35a8ad;
-  padding: 3em 0 3em 0; }
-  #testimonial h2 {
-    padding-top: 1em; }
-  #testimonial blockquote.style {
-    font: 18px/30px;
-    padding: 22px 10px 0 10px;
-    margin-bottom: 4em;
-    background-image: url("/img/openquote.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    text-indent: 65px;
-    font-size: 17px; }
-    #testimonial blockquote.style p {
-      text-align: center; }
-    #testimonial blockquote.style span {
-      display: block;
-      background-image: url("/img/closequote.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      background-size: 50px;
-      text-align: left;
-      padding: 1.5em;
-      font-weight: 300; }
-  #testimonial a {
-    color: white;
-    font-weight: 300;
-    text-decoration: none; }
-    #testimonial a:hover {
-      color: #eded8a; }
-
 .testimonial {
   background-color: #414042;
   color: white;
   padding: 3em 0 3em 0; }
-  .testimonial blockquote.style {
-    font: 18px/30px;
-    padding: 22px 10px 0 10px;
-    background-image: url("/img/openquote_blue.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    text-indent: 65px;
-    font-size: 17px; }
-    .testimonial blockquote.style p {
-      text-align: center; }
-    .testimonial blockquote.style span {
-      display: block;
-      background-image: url("/img/closequote_blue.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      background-size: 50px;
-      text-align: left;
-      padding: 1.5em;
-      font-weight: 300; }
+  .testimonial p {
+    text-align: center; }
   .testimonial a {
     color: white;
     font-weight: 300;
     text-decoration: none; }
     .testimonial a:hover {
       color: rgba(53, 168, 173, 0.8); }
+
+.bubble blockquote {
+  margin: 10px 10px 0;
+  padding: 60px;
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25em;
+  color: white; }
+
+.bubble blockquote:before, .bubble blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  padding: 10px;
+  line-height: 1;
+  color: rgba(53, 168, 173, 0.8); }
+
+.bubble blockquote:before {
+  top: 0;
+  left: 10px; }
+
+.bubble blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -.5em; }
+
+.bubble cite {
+  text-align: center;
+  font-size: 1.25em;
+  color: #f7f7f7; }
 
 #services {
   background-color: #70d6d6;
@@ -692,7 +671,7 @@ section, #contact {
     font-size: 20px; }
 
 #skills {
-  background-color: #35a8ad;
+  background-color: #414042;
   padding: 3em 0 3em 0;
   color: white; }
   #skills h2 {
@@ -818,8 +797,14 @@ section, #contact {
   width: 50px;
   height: 50px;
   text-align: center;
-  border: 2px solid white;
-  border-radius: 100%; }
+  border: 2px solid white; }
+
+.btn-social:hover {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 .btn.active,
 .btn:active,

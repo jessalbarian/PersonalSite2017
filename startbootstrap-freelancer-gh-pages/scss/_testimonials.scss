@@ -1,73 +1,10 @@
-#testimonial {
-  background-color: #35a8ad;
-  padding: 3em 0 3em 0;
-
-  h2 {
-    padding-top: 1em;
-  }
-
-  blockquote.style {
-    font: 18px/30px;
-    padding: 22px 10px 0 10px;
-    margin-bottom: 4em;
-    background-image: url("/img/openquote.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    text-indent: 65px;
-    font-size: 17px;
-    p {
-      text-align: center;
-    }
-    span {
-      display: block;
-      background-image: url("/img/closequote.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      background-size: 50px;
-      text-align: left;
-      padding: 1.5em;
-      font-weight: 300;
-    }
-  }
-  a {
-    color: white;
-    font-weight: 300;
-    text-decoration: none;
-    &:hover {
-      color: rgba(237, 237, 138, 1);
-    }
-  }
-}
-
 .testimonial {
   background-color: #414042;
   color: white;
   padding: 3em 0 3em 0;
-
-  blockquote.style {
-    font: 18px/30px;
-    padding: 22px 10px 0 10px;
-    background-image: url("/img/openquote_blue.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    text-indent: 65px;
-    font-size: 17px;
     p {
       text-align: center;
     }
-    span {
-      display: block;
-      background-image: url("/img/closequote_blue.png");
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      background-size: 50px;
-      text-align: left;
-      padding: 1.5em;
-      font-weight: 300;
-    }
-  }
   a {
     color: white;
     font-weight: 300;
@@ -78,3 +15,36 @@
   }
 }
 
+.bubble blockquote {
+  margin: 10px 10px 0;
+  //background: #fff;
+  padding: 60px;
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.25em;
+  color: white;
+}
+.bubble blockquote:before, .bubble blockquote:after {
+  content: "\201C";
+  position: absolute;
+  font-size: 80px;
+  padding: 10px;
+  line-height: 1;
+  color: $theme-success;
+}
+.bubble blockquote:before {
+  top: 0;
+  left: 10px;
+}
+.bubble blockquote:after {
+  content: "\201D";
+  right: 10px;
+  bottom: -.5em;
+}
+.bubble cite {
+  text-align: center;
+  font-size: 1.25em;
+  color:#f7f7f7;
+}

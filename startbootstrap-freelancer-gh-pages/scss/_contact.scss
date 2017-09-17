@@ -90,7 +90,7 @@ footer {
   }
   h2 {
     text-transform: capitalize;
-    margin-top: 1em;
+    margin-top: 3em;
   }
   .contact-block {
     background-color: rgba(53, 168, 173, 0.8);
@@ -98,8 +98,19 @@ footer {
   .contact-block-content {
     color: white;
 
+    #email {
+      margin-bottom: 5em;
+      padding-bottom: 1em;
+    }
     p {
       font-weight: 300;
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+          color: #414042;
+        }
+      }
     }
   }
   .contact-form-content {
