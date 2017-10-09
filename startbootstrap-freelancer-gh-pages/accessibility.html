@@ -138,8 +138,6 @@
 </footer>
 
 
-
-<!-- Scroll reveal animations -->
 <script src="js/scrollreveal.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
@@ -154,24 +152,14 @@
 <script src="js/jqBootstrapValidation.js"></script>
 <script src="js/contact_me.js"></script>
 
-<script type="text/javascript">
-
-    $(window).scroll(function () {
-        if ($("#otherNav").offset().top > 100) {
-            $("#otherNav").addClass("navbar-shrink");
-            $('#otherNav').css('background','rgba(53, 168, 173, 1)');
-        } else {
-            $("#otherNav").removeClass("navbar-shrink");
-            $('#otherNav').css('background','transparent');
-        }
-    });
-</script>
-
-<!-- Slick -->
-<script src="slick/slick.min.js"></script>
-
 <!-- Custom scripts for this template -->
-<script src="js/freelancer.min.js"></script>
+<script src="js/freelancer2.js"></script>
+
+<script>
+    document.onload = function () {
+        $('.navbar').css('background', 'rgba(53, 168, 173, 1)');
+    };
+</script>
 
 
 </body>
