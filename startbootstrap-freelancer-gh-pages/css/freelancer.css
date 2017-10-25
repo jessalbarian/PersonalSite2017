@@ -298,6 +298,7 @@ header.masthead {
 
 .animated1 {
   padding-top: 95px;
+  text-shadow: 3px 3px 7px black;
   margin-bottom: 60px;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -306,12 +307,14 @@ header.masthead {
 
 .animated2 {
   -webkit-animation-duration: 2s;
+  text-shadow: 3px 3px 7px black;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
 .animated3 {
   -webkit-animation-duration: 3s;
+  text-shadow: 3px 3px 7px black;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
